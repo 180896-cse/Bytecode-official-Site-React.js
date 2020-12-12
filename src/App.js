@@ -1,11 +1,16 @@
-import React from "react";
+import React, { Component } from "react";
 import "./styles.css";
+import "tachyons";
+import Form from "./component/Form";
 
-export default function App() {
-  return (
-    <div className="App">
-      <h1>Hello LastDove</h1>
-      <h2>Start editing to see some magic happen!</h2>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <h1>TO DO APP</h1>
+        <Form />
+      </div>
+    );
+  }
 }
+export default App;
