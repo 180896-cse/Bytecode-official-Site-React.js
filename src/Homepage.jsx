@@ -38,7 +38,7 @@ function Homepage() {
         <div class="bcl-intro-text-container">
           <div class="bcl-intro-text">
             <div class="heading">CODING COMMUNITY</div>
-            <div class="sub-text">Let's Create Something Ctrl + N</div>
+            <div class="sub-text">Let's Create Something Ctrl + N </div>
           </div> 
            <div class="bcl-social-link-container">
             <div class="bcl-social-links">
