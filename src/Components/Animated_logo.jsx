@@ -3,10 +3,11 @@ import '../Styles/Animatedlogo.css';
 import {motion} from 'framer-motion';
 
 const svgVariants={
-    hidden:{rotate:-180},
+    hidden:{rotate:0},
     visible:{
         rotate:0,
-        transition:{duration:1.5}
+        transition:{duration:1},
+    
     }
 }
 
@@ -31,10 +32,11 @@ const pathVariants={
 function Animated_logo() {
     return (
         <div className='mnpart_animation'>
-         <motion.svg width="651" height="506" viewBox="0 0 651 506" fill="none" xmlns="http://www.w3.org/2000/svg"
+         <motion.svg viewBox="0 0 651 506" fill="none" xmlns="http://www.w3.org/2000/svg"
             variants={svgVariants}
             initial='hidden'
             animate='visible'
+            
          >
             <g id="byte-code_logo 1">
             <g id="upperoutervector">
@@ -58,6 +60,7 @@ function Animated_logo() {
             <g id="innerbottomvector">
             <motion.path id="Vector_9" d="M243.378 343.293C246.031 345.089 247.67 345.311 250.717 345.06L387.213 343.466C391.598 343.05 392.21 343.197 394.968 339.444L425.036 288.086L406.455 259.174C404.44 256.039 403.561 257.889 401.027 261.99L371.718 309.703C369.89 311.636 368.623 312.445 365.515 312.92L231.061 312.061C223.842 312.09 223.006 311.595 226.364 316.82L243.378 343.293Z" fill="#108A23"/>
             </g>
+            
             </g>
         </motion.svg>
    

@@ -50,8 +50,8 @@ function Homepage() {
          </div>
         </div>
         <div class="bcl-side-image bcl-align-items-center ">
-        <img src={image}/>
-        {/* <Animated_logo className='animated_logo'/> */}
+        {/* <img src={image}/> */}
+        <Animated_logo className='animated_logo'/>
         </div>
       </div>
       

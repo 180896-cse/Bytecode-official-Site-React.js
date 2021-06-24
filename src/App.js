@@ -13,7 +13,7 @@ function App() {
     
     <BrowserRouter>
     <Switch>
-      <Route exact path="/" component={Animated_logo}/>
+      <Route exact path="/" component={Homepage}/>
       
       
       <Redirect to='/'/>
