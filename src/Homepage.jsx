@@ -1,6 +1,7 @@
 import React from 'react';
 import image from './Images/byte-code_logo.svg';
 import './Styles/Homepage.css';
+import {MdKeyboardArrowDown} from "react-icons/md";
 import { FaInstagram, FaTwitter, FaFacebook, FaGithub } from "react-icons/fa";
 import Animated_logo from './Components/Animated_logo';
 
@@ -50,9 +51,11 @@ function Homepage() {
          </div>
         </div>
         <div class="bcl-side-image bcl-align-items-center ">
-        {/* <img src={image}/> */}
         <Animated_logo className='animated_logo'/>
         </div>
+      </div>
+      <div class="slide-btn bcl-align-items-center" >
+      <MdKeyboardArrowDown size='4em'/>
       </div>
       
       
